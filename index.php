@@ -62,7 +62,6 @@
             }
             else
             {
-                echo password_hash("qwerty123", PASSWORD_DEFAULT);
                 echo '<form method="POST" action="includes/login.php" id="login-form">';
                 echo '<input type="text" placeholder="ENTER EMAIL" name="email">';
                 echo '<input type="password" placeholder="ENTER PASSWORD" name="password">';
