@@ -1,3 +1,2 @@
-- Login system (Email: user@mail.com, Password: qwerty123)
-- Music player
-- Music adding system
+- Description [ http://jordanek.pl/music-library/ ]
+- Login data [ Email: user@mail.com, Password: qwerty123 ]
