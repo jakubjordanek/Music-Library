@@ -5,7 +5,7 @@
         {
             if (empty($email) || empty($password))
             {
-                header("Location: ../");
+                header("Location: ../index.php");
                 exit();
             }
             else
@@ -29,13 +29,13 @@
                         }
                         else
                         {
-                            header("Location: ../");
+                            header("Location: ../index.php");
                             exit();
                         }
                     }
                     else
                     {
-                        header("Location: ../");
+                        header("Location: ../index.php");
                         exit();
                     }
                 }

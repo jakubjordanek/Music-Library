@@ -10,7 +10,7 @@
                 while($data = $query->fetch_array())
                 {
                     echo '<p>'.$i.'. <a href="index.php?search='.$data[8].'" class="link-black">'.$data[8]. '</a> - '.$data[3].' ';
-                    echo '<a href="../index.php?play='.$data[0].'" class="link-black">[ PLAY ]</a></p>';
+                    echo '<a href="index.php?play='.$data[0].'" class="link-black">[ PLAY ]</a></p>';
                     $i += 1;
                 }
             }

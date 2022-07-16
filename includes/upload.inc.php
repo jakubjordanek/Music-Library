@@ -22,13 +22,13 @@
                 {
                     $getID = $this->connect()->query("SELECT id FROM library ORDER BY id DESC LIMIT 1")->fetch_array();
                     move_uploaded_file($_FILES["file"]["tmp_name"], "library/".$getID[0].".mp3");
-                    header("Location: ../");
+                    header("Location: index.php");
                     exit();
                 }
             }
             else
             {
-                header("Location: ../upload.php");
+                header("Location: upload.php");
                 exit();
             }
         }

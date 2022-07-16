@@ -10,11 +10,11 @@
         $login = new Login();
         $login->loginUser($email, $password);
 
-        header("Location: ../");
+        header("Location: ../index.php");
     }
     else
     {
-        header("Location: ../");
+        header("Location: ../index.php");
         exit();
     }
 ?>

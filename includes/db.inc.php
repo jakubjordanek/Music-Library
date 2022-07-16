@@ -11,7 +11,7 @@
             $this->host = "localhost";
             $this->db_user = "root";
             $this->db_password = "";
-            $this->db_name = "music";
+            $this->db_name = "music-library";
 
             $connect = new mysqli($this->host, $this->db_user, $this->db_password, $this->db_name);
             $connect->set_charset("utf8");
